@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+.movie-search-bar{
+  height: 1.5rem;
+  width: 15rem;
+  border-radius: 5%;
+  filter: drop-shadow(0 0 0.5em #9a84ebaa);
+  padding: 0.4rem;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
