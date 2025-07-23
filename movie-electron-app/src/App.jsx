@@ -8,7 +8,7 @@ function App() {
     e.preventDefault();
     const data = {movie};
 
-    fetch("http://www.omdbapi.com/?t="+{data}+"&apikey=22770cf6",{
+    fetch("http://www.omdbapi.com/?t="+{data}+"&apikey="+ import.meta.env.VITE_OMDB_API_KEY,{
       mode: 'no-cors',
       method: 'POST',
       headers: {"Content-type": "application/json"},
